@@ -1,0 +1,14 @@
+
+## =============================== ##
+## 2022. 03. 29
+## FUNGuild
+## 
+## ++++++++++++++++++++++++++++++ ##
+
+# cd 04_FunctionAnalysis
+#git clone https://github.com/UMNFuN/FUNGuild
+#cd FUNGuild/
+
+python FUNGuild.py taxa -otu ../Table/funguildInput.txt -format tsv -column taxonomy -classifier unite
+python FUNGuild.py guild -taxa ../Table/funguildInput.taxa.txt
+
